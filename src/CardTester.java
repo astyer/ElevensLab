@@ -12,6 +12,7 @@ public class CardTester {
 		Card b = new Card("Ace", "Spaids", 4);
 		Card c = new Card("Ace", "Hearts", 4);
 		System.out.println(a.matches(b));
+		System.out.println(a.matches(c));
 		System.out.println(a.toString());
 	}
 }
