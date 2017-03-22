@@ -22,5 +22,10 @@ public class DeckTester {
 		System.out.println(a.deal());
 		System.out.println(a.deal());
 		System.out.println(a.deal());
+		String [] ranks2 = {"2", "3", "4", "5", "6", "7", "8", "9" ,"10", "Jack", "Queen", "King", "Ace"};
+		String [] suits2 = {"spades", "hearts", "diamonds", "clubs"};
+		int [] values2 = {2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11};
+		Deck b = new Deck(ranks2, suits2, values2);
+		System.out.println(b.size());
 	}
 }
